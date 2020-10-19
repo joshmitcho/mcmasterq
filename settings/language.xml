@@ -50,7 +50,7 @@
 
   <!-- welcome screen (leave blank to skip screen) -->
   <item id="welcomeHead">{img src="https://macanatomy.mcmaster.ca/mcmasterq/logo_center.jpg" width="581"}</item>
-  <item id="welcomeText">Welcome to the PIPER IPE Entry Survey </item>
+  <item id="welcomeText">Welcome to the McMasterQ Demo Survey</item>
 
   <!-- user login, only displayed if access is restricted (see config-file)
   <item id="loginHead">User code</item>

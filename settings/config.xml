@@ -52,12 +52,12 @@
 	<input type="text" required="true" maxlength="40"></input>
 
     <label>Sport</label>
-	<note>Please select your favourite sport</note>
-	<input type="radio" required="false">Football (the right one);Football (the wrong one);I prefer birds;Rather Not Specify</input>
+	<note>Please select your favourite sport below</note>
+	<input type="radio" required="false">Football (the right one);Football (the wrong one);I Prefer Birds;Rather Not Specify</input>
 	
-	<label>How good is this bird?</label>
-	<note>On a scale of 1-10, how good is this bird? {img src="https://macanatomy.mcmaster.ca/mcmasterq/birb.jpg" width="581"}</note>
-	<input type="rating10" required="false"></input>
+	<label>How Much Fun?</label>
+	<note>On a scale of 1-10, how much fun did you have today?</note>
+	<input type="text" required="false" maxlength="2"></input>
 	
 	<label>Strangest Dream</label>
 	<note>Please provide a brief description of your strangest dream</note>
