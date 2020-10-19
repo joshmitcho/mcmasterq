@@ -62,7 +62,7 @@
 
   <!-- introduction (leave blank to skip popup) -->
   <item id="introHead">Introduction</item>
-  <item id="introText">This survey will ask you questions about your experience with Interprofessional Education. All information collected is anonymous, please answer truthfully. {br}{br}Please maximize your browser window and click Continue to begin.</item>
+  <item id="introText">This survey will ask you questions as a demo survey. All information collected is anonymous, please answer truthfully. {br}{br}Please maximize your browser window and click Continue to begin.</item>
 
   <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
   <item id="step1Head">Step 1 of 5</item>

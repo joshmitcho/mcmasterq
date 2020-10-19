@@ -48,11 +48,11 @@
   <item id="form">
 	
 	<label>Bird</label>
-	<note>*Please enter your favourite bird below (required)</note>
+	<note>*Please enter your favourite bird (required)</note>
 	<input type="text" required="true" maxlength="40"></input>
 
     <label>Sport</label>
-	<note>Please select your favourite sport below</note>
+	<note>Please select your favourite sport</note>
 	<input type="radio" required="false">Football (the right one);Football (the wrong one);I Prefer Birds;Rather Not Specify</input>
 	
 	<label>How Much Fun?</label>
