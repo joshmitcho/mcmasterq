@@ -15,7 +15,7 @@
 <config version="1.0" htmlParse="false">
 
   <!-- title of the study -->
-  <item id="studyTitle">Name of your study</item>
+  <item id="studyTitle">Interprofessional Education Course Review</item>
 
   <!-- text-align property(left|right) -->
   <item id="textAlign">left</item>
@@ -46,25 +46,51 @@
   <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
   <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
   <item id="form">
-    <label>Age*</label>
-	<note>Please enter your year of birth (YYYY, eg. 1980).</note>
-	<input type="text" required="true" maxlength="4" restricted="0-9"></input>
+	
+	<label>Codename</label>
+	<note>*Develop your own codename using the following formula:</note>
+	<note>First letter from your first name + Last 3 letters from your last name + Birth month short form.</note>
+	<note>For example: Sarah Jones (August Birthday) = SNESAUG</note>
+	<note>The birth month short forms are listed below:</note>
+	<note>January - JAN</note>
+	<note>February - FEB</note>
+	<note>March - MAR</note>
+	<note>April - APR</note>
+	<note>May - MAY</note>
+	<note>June - JUN</note>
+	<note>July - JUL</note>
+	<note>August - AUG</note>
+	<note>September - SEP</note>
+	<note>October - OCT</note>
+	<note>November - NOV</note>
+	<note>December - DEC</note>
+	<note>*Please enter your codename below</note>
+	<input type="text" required="true" maxlength="7"></input>
+  
+    <label>Year of Birth</label>
+	<note>*Please enter your year of birth (or N/A if you'd rather not specify)</note>
+	<input type="text" required="true" maxlength="4"></input>
 
-    <label>Gender*</label>
-	<note>Please select your gender.</note>
-	<input type="radio" required="true">female;male</input>
+    <label>Gender</label>
+	<note>*Please select your gender</note>
+	<input type="radio" required="true">Female;Male;Other;Rather Not Specify</input>
 
-    <label>Please answer the following questions.</label>
-	<input type="rating2" required="false" scale="Yes;No;">There's a car in my household;I own a car for myself</input>
+	<label>Discipline</label>
+	<note>*I am in the ______ program</note>
+	<input type="radio" required="true">Physician's Assistant;Physiotherapy;Child Life Studies;Accelerated Nursing;Conestoga Nursing;McMaster Nursing;Mohawk Nursing;Midwifery;Occupational Therapy;BHSc;Medicine;Speech Language Pathology;Social Work</input>
 
-    <label>What kind of transportation do you use?</label>
-	<input type="checkbox" required="false">Car;Railroad;Bike</input>
-
-    <label>What kind of transportation do you prefer?</label>
-	<input type="select" required="false">Car;Railroad;Bike</input>
-
-    <label>Comments</label>
+    <label>Previous RIPLS Participation</label>
+	<note>*Have you completed the RIPLS questionnaire before?</note>
+	<input type="radio" required="true">Yes;No</input>
+	<note>If so, how long ago did you complete it?</note>
+	<input type="radio" required="false">1-3 months;3-6 months;6-12 months;1-2 years;2-3 years;3+ years</input>
+	
+	<label>Previous Interprofessional Teaching</label>
+	<note>*Have you had any previous experience with interprofessional teaching?</note>
+	<input type="radio" required="true">Yes;No</input>
+	<note>If you answered yes to the previous question, please give a very brief statement of what this IPE was and any impact it may have had</note>
 	<input type="textarea" required="false"></input>
+	
 
     <note bg="false">All fields marked with an * are mandatory.</note>
   </item>
@@ -75,5 +101,5 @@
   <item id="submitUrlMethod">post</item>
 
   <!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
-  <item id="submitMail">yourdomain.com</item>
+  <item id="submitMail"></item>
  </config>
