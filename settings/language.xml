@@ -49,7 +49,7 @@
   <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
 
   <!-- welcome screen (leave blank to skip screen) -->
-  <item id="welcomeHead">{img src="https://macanatomy.mcmaster.ca/ipe/logo_center.jpg" width="581"}</item>
+  <item id="welcomeHead">{img src="https://macanatomy.mcmaster.ca/mcmasterq/logo_center.jpg" width="581"}</item>
   <item id="welcomeText">Welcome to the PIPER IPE Entry Survey </item>
 
   <!-- user login, only displayed if access is restricted (see config-file)

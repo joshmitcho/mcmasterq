@@ -15,7 +15,7 @@
 <config version="1.0" htmlParse="false">
 
   <!-- title of the study -->
-  <item id="studyTitle">Interprofessional Education Course Review</item>
+  <item id="studyTitle">McMasterQ Demo</item>
 
   <!-- text-align property(left|right) -->
   <item id="textAlign">left</item>
@@ -47,51 +47,22 @@
   <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
   <item id="form">
 	
-	<label>Codename</label>
-	<note>*Develop your own codename using the following formula:</note>
-	<note>First letter from your first name + Last 3 letters from your last name + Birth month short form.</note>
-	<note>For example: Sarah Jones (August Birthday) = SNESAUG</note>
-	<note>The birth month short forms are listed below:</note>
-	<note>January - JAN</note>
-	<note>February - FEB</note>
-	<note>March - MAR</note>
-	<note>April - APR</note>
-	<note>May - MAY</note>
-	<note>June - JUN</note>
-	<note>July - JUL</note>
-	<note>August - AUG</note>
-	<note>September - SEP</note>
-	<note>October - OCT</note>
-	<note>November - NOV</note>
-	<note>December - DEC</note>
-	<note>*Please enter your codename below</note>
-	<input type="text" required="true" maxlength="7"></input>
-  
-    <label>Year of Birth</label>
-	<note>*Please enter your year of birth (or N/A if you'd rather not specify)</note>
-	<input type="text" required="true" maxlength="4"></input>
+	<label>Bird</label>
+	<note>*Please enter your favourite bird below (required)</note>
+	<input type="text" required="true" maxlength="40"></input>
 
-    <label>Gender</label>
-	<note>*Please select your gender</note>
-	<input type="radio" required="true">Female;Male;Other;Rather Not Specify</input>
-
-	<label>Discipline</label>
-	<note>*I am in the ______ program</note>
-	<input type="radio" required="true">Physician's Assistant;Physiotherapy;Child Life Studies;Accelerated Nursing;Conestoga Nursing;McMaster Nursing;Mohawk Nursing;Midwifery;Occupational Therapy;BHSc;Medicine;Speech Language Pathology;Social Work</input>
-
-    <label>Previous RIPLS Participation</label>
-	<note>*Have you completed the RIPLS questionnaire before?</note>
-	<input type="radio" required="true">Yes;No</input>
-	<note>If so, how long ago did you complete it?</note>
-	<input type="radio" required="false">1-3 months;3-6 months;6-12 months;1-2 years;2-3 years;3+ years</input>
+    <label>Sport</label>
+	<note>Please select your favourite sport</note>
+	<input type="radio" required="false">Football (the right one);Football (the wrong one);I prefer birds;Rather Not Specify</input>
 	
-	<label>Previous Interprofessional Teaching</label>
-	<note>*Have you had any previous experience with interprofessional teaching?</note>
-	<input type="radio" required="true">Yes;No</input>
-	<note>If you answered yes to the previous question, please give a very brief statement of what this IPE was and any impact it may have had</note>
+	<label>How good is this bird?</label>
+	<note>On a scale of 1-10, how good is this bird? {img src="https://macanatomy.mcmaster.ca/mcmasterq/birb.jpg" width="581"}</note>
+	<input type="rating10" required="false"></input>
+	
+	<label>Strangest Dream</label>
+	<note>Please provide a brief description of your strangest dream</note>
 	<input type="textarea" required="false"></input>
 	
-
     <note bg="false">All fields marked with an * are mandatory.</note>
   </item>
 
